@@ -28,6 +28,7 @@ class MainMenuScreen extends StatelessWidget {
         ),
       ),
       body:const MainColumn(),
+      
       drawer: Lateralnavbar(scaffoldKey: scaffoldKey),
     );
   }
